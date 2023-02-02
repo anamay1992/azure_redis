@@ -1,0 +1,6 @@
+spring:
+  redis:
+    host: redipremium0001.redis.cache.windows.net
+    port: 6380
+    ssl: true
+    password: 8VvzXAAmkB7mMIsDk5qMrXXioJM3EHUF6AzCaLXsfsg=
