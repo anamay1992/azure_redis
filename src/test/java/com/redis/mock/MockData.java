@@ -1,11 +1,11 @@
 package com.redis.mock;
 
-import com.redis.model.Employee;
+import com.redis.model.Country;
 
 public class MockData {
 
-    public static Employee getMockEmployee() {
-        return Employee
+    public static Country getMockEmployee() {
+        return Country
                 .builder()
                 .firstName("Angel")
                 .secondName("Leonard")

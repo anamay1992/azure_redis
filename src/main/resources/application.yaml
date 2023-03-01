@@ -1,6 +1,11 @@
 spring:
-  redis:
-    host: redipremium0001.redis.cache.windows.net
-    port: 6380
-    ssl: true
-    password: 8VvzXAAmkB7mMIsDk5qMrXXioJM3EHUF6AzCaLXsfsg=
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/azure_redis
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+    generate-ddl: true
+    show-sql: true

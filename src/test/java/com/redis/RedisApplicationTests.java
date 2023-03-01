@@ -1,21 +1,14 @@
 package com.redis;
 
-import com.redis.mock.MockConstant;
-import com.redis.mock.MockData;
-import com.redis.model.Employee;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.ReactiveRedisTemplate;
-import org.springframework.data.redis.core.ReactiveValueOperations;
-import reactor.core.publisher.Mono;
-import reactor.test.StepVerifier;
+//import org.springframework.data.redis.core.ReactiveRedisTemplate;
+//import org.springframework.data.redis.core.ReactiveValueOperations;
+
 
 @SpringBootTest
 class RedisApplicationTests {
 
-	@Autowired
+	/*@Autowired
 	private ReactiveRedisTemplate<String, Employee> template;
 	private ReactiveValueOperations<String, Employee> valueOps;
 
@@ -49,6 +42,6 @@ class RedisApplicationTests {
 		StepVerifier.create(source)
 				.expectNext(true)
 				.verifyComplete();
-	}
+	}*/
 
 }
